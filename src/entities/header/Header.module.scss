@@ -17,6 +17,10 @@
 		font-size: 25px;
 		line-height: 29px;
 		color: #f6f7f9;
+		transition: all .3s ease;
+		&:hover {
+			color: #9bb5e9;
+		}
 		&_active {
 			padding-bottom: 5px;
 			border-bottom: 2px solid #cfdab0;

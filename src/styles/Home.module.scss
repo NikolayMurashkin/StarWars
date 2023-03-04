@@ -1,18 +1,20 @@
 .home {
 	background: linear-gradient(180deg, #1f2a63 0%, #17002f 100%);
-	padding: 80px 80px;
+	padding: 80px 80px 50px;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
+	min-height: calc(100vh - 89px);
 	&__cta {
 		display: flex;
 		flex-direction: column;
-		row-gap: max(4.7vw, 24px);
+		row-gap: max(3vw, 24px);
 		align-items: flex-start;
 	}
 	&__title {
 		font-weight: 400;
-		font-size: max(4.7vw, 44px);
-		line-height: max(5.7vw, 52px);
+		font-size: max(4vw, 44px);
+		line-height: max(5vw, 52px);
 		letter-spacing: 4px;
 		color: #ffffff;
 		white-space: pre-wrap;
@@ -50,7 +52,10 @@
 		}
 	}
 	&__banner-img {
-		width: max(50vw, 60px);
-		height: max(50vw, 60px);
+		width: max(40vw, 60px);
+		height: max(40vw, 60px);
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
 }

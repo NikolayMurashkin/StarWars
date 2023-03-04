@@ -11,13 +11,19 @@ export const Header = () => {
 
 	return (
 		<header className={cx('header')}>
-			<Image
-				src={'/logo.png'}
-				alt={'star wars logo'}
-				className={cx('header__logo')}
-				width={150}
-				height={79}
-			/>
+			<Link
+				href={'/'}
+				className={cx('header__link')}
+			>
+				<Image
+					src={'/logo.png'}
+					alt={'star wars logo'}
+					className={cx('header__logo')}
+					width={150}
+					height={79}
+				/>
+			</Link>
+
 			<nav className={cx('header__nav')}>
 				<ul className={cx('header__links')}>
 					<Link

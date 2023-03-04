@@ -77,3 +77,22 @@ h6 {
 	font-weight: inherit;
 	font-size: inherit;
 }
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+	row-gap: 30px;
+	column-gap: 30px;
+	overflow: visible !important;
+	overflow-y: auto;
+}
+
+body.ReactModal__Body--open {
+	overflow: hidden;
+}
+
+.ReactModal__Overlay {
+	background-color: rgba(33, 33, 33, 0.5) !important;
+}
